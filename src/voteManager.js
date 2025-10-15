@@ -1,61 +1,14 @@
-import inquirer from "inquirer";
-import chalk from "chalk";
-import { deals, saveDeals } from "./dealManager.js";
-import { logger } from "./logger.js";
+/**
+ * Vérifie qu'un prix entré par l'utilisateur est valide.
+ * @function validatePrice
+ * @param {string|number} value - La valeur saisie par l'utilisateur.
+ * @returns {true|string} Retourne `true` si la valeur est valide,
+ */
+export function validatePrice(value) {
+  // Convertit la valeur en nombre
+  const num = Number(value);
 
-export async function voteDeal() {
-  if (deals.length === 0) {
-    console.log(chalk.red("Aucun deal à évaluer."));
-    return;
-  }
-
-  const { index } = await inquirer.prompt([
-    {
-      type: "list",
-      name: "index",
-      message: "Choisissez un deal à noter :",
-      choices: [
-        ...deals.map((d, i) => ({
-          name: `${d.title} (Score : ${d.score})`,
-          value: i,
-        })),
-        new inquirer.Separator(),
-        { name: "Retour", value: "back" },
-      ],
-    },
-  ]);
-
-  if (index === "back") {
-    console.log(chalk.gray("Retour au menu principal..."));
-    return;
-  }
-
-  const { opinion } = await inquirer.prompt([
-    {
-      type: "list",
-      name: "opinion",
-      message: "Que pensez-vous de ce deal ?",
-      choices: [
-        { name: "Bon deal", value: 1 },
-        { name: "Mauvais deal", value: -1 },
-        { name: "Retour", value: "back" },
-      ],
-    },
-  ]);
-
-  if (opinion === "back") {
-    console.log(chalk.gray("Retour au menu principal..."));
-    return;
-  }
-
-  deals[index].score += opinion;
-  saveDeals();
-
-  const label = opinion === 1 ? "Bon" : "Mauvais";
-  logger.info(`Vote ${label} sur ${deals[index].title}`);
-  console.log(
-    chalk.cyanBright(
-      `Score actuel de "${deals[index].title}" : ${deals[index].score}`
-    )
-  );
+  // Vérifie que la valeur est bien un nombre positif
+  // Si non valide -> renvoie un message d'erreur, sinon true
+  return isNaN(num) || num <= 0 ? "Veuillez entrer un prix valide." : true;
 }
