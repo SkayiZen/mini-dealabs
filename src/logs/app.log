@@ -1,0 +1,79 @@
+[2025-10-14 09:24:01] [32MINFO[39M - Nouveau deal ajouté : Test Deal
+[2025-10-14 09:24:16] [32MINFO[39M - (chaud) +1 sur Test Deal
+[2025-10-14 09:24:23] [32MINFO[39M - (froid) -1 sur Test Deal
+[2025-10-14 09:29:58] [31MERROR[39M - uncaughtException: User force closed the prompt with SIGINT
+ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (file:///C:/Users/skayi/Desktop/Ynov-2025-2026/bonne-pratique-dev/mini-dealabs/node_modules/@inquirer/core/dist/esm/lib/create-prompt.js:62:37)
+    at Interface.emit (node:events:518:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:263:20)
+    at ReadStream.emit (node:events:530:35)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+[2025-10-14 09:30:34] [32MINFO[39M - Nouveau deal ajouté : test deal
+[2025-10-14 09:30:41] [32MINFO[39M - Vote Bon sur test deal
+[2025-10-14 09:35:43] [32MINFO[39M - Sauvegarde effectuée dans deals.json
+[2025-10-14 09:35:43] [32MINFO[39M - Nouveau deal ajouté : SSD Nvme 1to
+[2025-10-14 09:36:05] [32MINFO[39M - Sauvegarde effectuée dans deals.json
+[2025-10-14 09:36:05] [32MINFO[39M - Vote Bon sur SSD Nvme 1to
+[2025-10-14 09:36:08] [32MINFO[39M - Sauvegarde effectuée dans deals.json
+[2025-10-14 09:36:08] [32MINFO[39M - Vote Bon sur SSD Nvme 1to
+[2025-10-14 09:36:23] [32MINFO[39M - 1 deal(s) chargés depuis deals.json
+[2025-10-14 09:41:58] [32MINFO[39M - 1 deal(s) chargés depuis deals.json
+[2025-10-14 09:45:29] [31MERROR[39M - uncaughtException: User force closed the prompt with SIGINT
+ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (file:///C:/Users/skayi/Desktop/Ynov-2025-2026/bonne-pratique-dev/mini-dealabs/node_modules/@inquirer/core/dist/esm/lib/create-prompt.js:62:37)
+    at Interface.emit (node:events:518:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:263:20)
+    at ReadStream.emit (node:events:530:35)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+[2025-10-14 09:45:35] [32MINFO[39M - 1 deal(s) chargés depuis deals.json
+[2025-10-14 09:46:55] [32MINFO[39M - Sauvegarde effectuée dans deals.json
+[2025-10-14 09:46:55] [32MINFO[39M - Nouveau deal ajouté : Iphone 14 pro
+[2025-10-14 09:50:40] [32MINFO[39M - 2 deal(s) chargés depuis deals.json
+[2025-10-14 09:56:40] [31MERROR[39M - uncaughtException: User force closed the prompt with SIGINT
+ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (file:///C:/Users/skayi/Desktop/Ynov-2025-2026/bonne-pratique-dev/mini-dealabs/node_modules/@inquirer/core/dist/esm/lib/create-prompt.js:62:37)
+    at Interface.emit (node:events:518:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:263:20)
+    at ReadStream.emit (node:events:530:35)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+[2025-10-14 10:09:16] [32MINFO[39M - 2 deal(s) chargés depuis deals.json
+[2025-10-14 10:10:33] [31MERROR[39M - uncaughtException: User force closed the prompt with SIGINT
+ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (file:///C:/Users/skayi/Desktop/Ynov-2025-2026/bonne-pratique-dev/mini-dealabs/node_modules/@inquirer/core/dist/esm/lib/create-prompt.js:62:37)
+    at Interface.emit (node:events:518:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:263:20)
+    at ReadStream.emit (node:events:530:35)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+[2025-10-14 10:13:03] [32MINFO[39M - 2 deal(s) chargés depuis deals.json
+[2025-10-14 10:13:49] [32MINFO[39M - Sauvegarde effectuée dans deals.json
+[2025-10-14 10:13:49] [32MINFO[39M - Nouveau deal ajouté : Tets deal
+[2025-10-14 10:13:59] [32MINFO[39M - Sauvegarde effectuée dans deals.json
+[2025-10-14 10:13:59] [32MINFO[39M - Deal supprimé : Tets deal
+[2025-10-14 10:20:04] [32MINFO[39M - 2 deal(s) chargés depuis deals.json
+[2025-10-14 10:53:48] [32MINFO[39M - 2 deal(s) chargés depuis deals.json
+[2025-10-14 10:54:22] [32MINFO[39M - Sauvegarde effectuée dans deals.json
+[2025-10-14 10:54:22] [32MINFO[39M - Nouveau deal ajouté : trtrtr
+[2025-10-14 10:54:41] [32MINFO[39M - Sauvegarde effectuée dans deals.json
+[2025-10-14 10:54:41] [32MINFO[39M - Vote Bon sur Iphone 14 pro
+[2025-10-14 10:54:51] [32MINFO[39M - Sauvegarde effectuée dans deals.json
+[2025-10-14 10:54:51] [32MINFO[39M - Deal supprimé : trtrtr

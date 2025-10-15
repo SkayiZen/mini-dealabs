@@ -1,0 +1,22 @@
+[
+  {
+    "title": "SSD Nvme 1to",
+    "description": "Stockage samsung 1to nvme",
+    "initialPrice": "120",
+    "discountPrice": "105",
+    "link": "https://amazon.com/ssd",
+    "category": "Informatique / Stockage",
+    "score": 2,
+    "createdAt": "14/10/2025, 09:35:43"
+  },
+  {
+    "title": "Iphone 14 pro",
+    "description": "Apple iphone 14 pro 256go ",
+    "initialPrice": "1265",
+    "discountPrice": "960",
+    "link": "https://apple.com/iphone-14-pro/",
+    "category": "Informatique / Téléphone",
+    "score": 1,
+    "createdAt": "14/10/2025, 09:46:55"
+  }
+]
